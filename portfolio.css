@@ -76,29 +76,28 @@ nav{
         font-size: 14px;
     }
 }
-
-/* Mobile */
-@media (max-width: 576px){
+@media (max-width: 600px){
     .nav{
         flex-direction: column;
         gap: 10px;
-        padding: 15px 5%;
+        padding: 15px 2%;
     }
 
     .nav h2{
-        font-size: 22px;
+        font-size: 20px;
     }
 
     .nav-links{
         flex-wrap: wrap;
         justify-content: center;
-        gap: 12px;
+        gap: 10px;
     }
 
     .nav-links a{
-        font-size: 14px;
+        font-size: 10px;
     }
 }
+
 
 /* ================= HERO ================= */
 
