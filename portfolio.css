@@ -17,46 +17,87 @@ body{
 /* ================= NAVBAR ================= */
 
 /* ================= NAVBAR ================= */
-
 nav{
-    position:fixed;
-    top:0;
-    left:0;
-    width:100%;
-    background:white;
-    box-shadow:0 2px 15px rgba(0,0,0,.08);
-    z-index:1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 15px rgba(0,0,0,.08);
+    z-index: 1000;
 }
 
 .nav{
-    max-width:1400px;
-    margin:auto;
-    padding:20px 8%;
-    display:flex;
-    justify-content:space-between;
-    align-items:center;
+    max-width: 1400px;
+    margin: auto;
+    padding: 20px 8%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .nav h2{
-    color:#2563eb;
-    font-size:30px;
-    font-weight:700;
+    color: #2563eb;
+    font-size: 30px;
+    font-weight: 700;
 }
 
 .nav-links{
-    display:flex;
-    gap:30px;
+    display: flex;
+    gap: 30px;
 }
 
 .nav-links a{
-    text-decoration:none;
-    color:#334155;
-    font-weight:500;
-    transition:.3s;
+    text-decoration: none;
+    color: #334155;
+    font-weight: 500;
+    transition: .3s;
 }
 
 .nav-links a:hover{
-    color:#2563eb;
+    color: #2563eb;
+}
+
+/* Tablet */
+@media (max-width: 768px){
+    .nav{
+        padding: 15px 5%;
+    }
+
+    .nav h2{
+        font-size: 24px;
+    }
+
+    .nav-links{
+        gap: 15px;
+    }
+
+    .nav-links a{
+        font-size: 14px;
+    }
+}
+
+/* Mobile */
+@media (max-width: 576px){
+    .nav{
+        flex-direction: column;
+        gap: 10px;
+        padding: 15px 5%;
+    }
+
+    .nav h2{
+        font-size: 22px;
+    }
+
+    .nav-links{
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .nav-links a{
+        font-size: 14px;
+    }
 }
 
 /* ================= HERO ================= */
