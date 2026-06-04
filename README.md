@@ -15,3 +15,7 @@ This is my personal portfolio website built using HTML and CSS.
 
 ## Author
 Kathiravan
+
+## 🚀 Live Demo
+
+[View Portfolio](https://kathiravan221.github.io/Personal-portfolio/)
